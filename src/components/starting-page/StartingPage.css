@@ -1,0 +1,75 @@
+
+.starting--page--container {
+    min-height: 320px;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    grid-column: 2/8;
+    grid-row: 3/7;
+    border-radius: 20px;
+    border: 1px solid grey;
+    align-items: center;
+    text-align: center;
+    color: var(--primary-black);
+}
+
+.starting--page--heading--one {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.starting--page--heading--one > span {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.starting--page--heading--two {
+    margin: 50px 10px 20px 10px;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.starting--page--input {
+    height: 30px;
+    width: 80%;
+    max-width: 220px;
+    font-size: 0.75rem;
+    border-radius: 20px;
+    border: 1px solid var(--primary-black);
+    padding: 5px 5px;
+    text-align: center;
+}    
+
+.starting--page--startbutton {
+    margin-top: 50px;
+    margin-bottom: auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid var(--primary-grey);
+    font-size: 0.75rem;
+    background-color: var(--primary-grey);
+    color: var(--primary-black);
+}
+
+.starting--page--startbutton:hover {
+    box-shadow: 0 5px 10px var(--primary-grey);
+    background: var(--primary-red);
+    cursor: pointer;
+}
+
+/* small-tablet-styles */
+@media screen and (min-width: 620px) {
+
+}
+
+/* large-tablets-and-laptops */ 
+@media screen and (min-width: 960px) {
+
+}
+
+/* desktop screens */
+@media screen and (min-width: 1200px) {
+
+}

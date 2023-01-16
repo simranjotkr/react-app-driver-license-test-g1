@@ -1,0 +1,39 @@
+/* variables */
+
+/* base styles */
+
+/* fonts */
+
+/* mobile-styles */
+.navbar--container {
+    display: flex;
+    grid-column: 1/9;
+    grid-row: 1/1;
+    align-items: center;
+    justify-content: start;
+    font-family: Poppins, sans-serif;
+    color: var(--primary-black);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.navbar--container > h1 {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+/* small-tablet-styles */
+@media screen and (min-width: 620px) {
+
+}
+
+/* large-tablets-and-laptops */ 
+@media screen and (min-width: 960px) {
+
+}
+
+/* desktop screens */
+@media screen and (min-width: 1200px) {
+
+}
+
+
