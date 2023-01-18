@@ -16,10 +16,20 @@
 }
 
 /* small-tablet-styles */
-@media screen and (min-width: 620px) {}
+@media screen and (min-width: 620px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+}
 
 /* large-tablets-and-laptops */
-@media screen and (min-width: 960px) {}
+@media screen and (min-width: 960px) {
+
+}
 
 /* desktop screens */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+}

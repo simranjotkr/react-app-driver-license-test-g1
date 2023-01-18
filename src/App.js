@@ -1,5 +1,4 @@
 import './App.css';
-import userState from 'react'
 import StartingPage from './components/starting-page/StartingPage';
 import Navbar from './components/navbar/Navbar' 
 

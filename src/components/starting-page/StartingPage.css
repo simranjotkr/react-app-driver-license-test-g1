@@ -2,6 +2,8 @@
 .starting--page--container {
     min-height: 320px;
     min-width: 220px;
+    max-width: 450px;
+    max-height: 400px;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -61,7 +63,9 @@
 
 /* small-tablet-styles */
 @media screen and (min-width: 620px) {
-
+    /* .starting--page--container {
+        grid-column: 6/12;
+    } */
 }
 
 /* large-tablets-and-laptops */ 
@@ -71,5 +75,9 @@
 
 /* desktop screens */
 @media screen and (min-width: 1200px) {
-
+    /* .starting--page--container {
+        grid-column: 7/13;
+        grid-row: 3/8;
+        margin-top: 40px;
+    } */
 }

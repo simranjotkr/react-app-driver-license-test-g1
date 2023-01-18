@@ -3,6 +3,9 @@ import './StartingPage.css'
 
 const StartingPage = () => {
   let username;
+  function displayUserName() {
+    console.log(username);
+  }
   return (
     <div className='starting--page--container'>
       <h1 className='starting--page--heading--one'>Welcome to <br /><span>G1 Practice Test</span></h1>
@@ -12,7 +15,7 @@ const StartingPage = () => {
         placeholder='Username'
         value={username}
       />
-      <button className="starting--page--startbutton" >Start</button>
+      <button className="starting--page--startbutton" onClick={displayUserName} >Start</button>
     </div>
   )
 }

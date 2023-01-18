@@ -23,7 +23,9 @@
 
 /* small-tablet-styles */
 @media screen and (min-width: 620px) {
-
+    .navbar--container {
+        grid-column: 1/13;
+    }
 }
 
 /* large-tablets-and-laptops */ 
